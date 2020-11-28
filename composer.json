@@ -1,0 +1,29 @@
+{
+    "name": "zcwilt/dev-laravel-consent",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Wilson",
+            "email": "ian@zen-cart.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "LaravelConsent\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelConsent\\ConsentServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^8.0",
+        "illuminate/contracts": "^8.0"
+    }
+}
